@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(114, 113, 113);
+}
+.menu {
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    
+}
+
+.navmenu{
+    padding: 10px;
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+}   
+
+.elementh {
+    font-family: 'Sigmar', cursive;
+    
+
+}
