@@ -1,23 +1,52 @@
-body{
-    background-color: rgb(114, 113, 113);
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Sigmar', sans-serif;
+    list-style-type: none;
 }
-.menu {
+
+header {
+    background: rgb(77, 76, 76);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-    display: flex;
-    gap: 10px;
-    padding: 10px;
-    
+    height: 65px;
+    padding: 0px 30px 0px 30px;
+}
+.logo {
+    height: 50%;
+    cursor: pointer;
 }
 
-.navmenu{
-    padding: 10px;
+
+.navmenu, 
+.menu-list {
     display: flex;
-    align-content: center;
-    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
+
 }   
+.menu-list{
+    gap: 15px;
 
-.elementh {
-    font-family: 'Sigmar', cursive;
-    
+}
+.menu-list a {
+    color: rgb(67, 67, 216);
+    font-size: 15px;
 
+}
+.menu-list li:first-child >a {
+    color: rgb(90, 90, 248);
+    font-weight: 300;
+}
+
+.car {
+    font-weight: 500;
+    border-radius: 30px;
+    height: 60px;
+    padding: 5px 10px;
+    cursor: pointer;
 }
