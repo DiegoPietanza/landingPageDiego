@@ -3,10 +3,13 @@
     padding: 0px;
     box-sizing: border-box;
     text-decoration: none;
-    font-family: 'Sigmar', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     list-style-type: none;
 }
-
+footer{
+    background: rgb(77, 76, 76);
+    text-align: center;
+}
 header {
     background: rgb(77, 76, 76);
     width: 100%;
@@ -49,4 +52,123 @@ header {
     height: 60px;
     padding: 5px 10px;
     cursor: pointer;
+
+}
+main {
+    background: rgb(44, 44, 44);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: blanchedalmond;
+    width: 100%;
+
+}
+
+#hero {
+    margin-top: 20px;
+    padding: 70px 0;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.hero-info{
+    display: flex;  
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+}
+.hero-info h1 {
+
+}
+
+.hero-info p {
+
+}
+.hero-info a {
+    color: blue;
+    background-color: blueviolet;
+    width: 128px;
+    padding: 8px 0px;
+    border-radius: 10px;
+    font-size: 15px;
+    text-align: center;
+
+}
+
+.hero-card {
+    width: 300px;
+    background: gray;
+    padding: 20px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.hero-card-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.hero-card-top {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;    
+}
+.hero-card-top h3{
+    font-weight: 600;
+    font-size: 16px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: right;
+
+}
+.hero-card-top span {
+    background-color: brown;
+    text-align: center;
+    width: 50px;
+    padding: 3px 0px;
+    font-size: 14px;
+    border-radius: 10px;
+
+}
+
+.hero-card-botton {
+    display: flex;
+    justify-content: center;  
+    gap: 5px;
+
+
+}
+
+.hero-card-botton > img{
+    width: 30%; 
+    height: 30%; 
+    margin-right: 2px; 
+    border-radius: 5px;
+
+}   
+
+#about {
+    background: rgb(126, 126, 126);
+    gap: 10px;
+    
+}
+.about-titulo{
+    text-align: center;
+    
+}
+.about-detalle{
+    text-align: center;
+    box-sizing: 600PX;
+    margin: 20px;
 }
