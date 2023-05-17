@@ -5,40 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos.css">
-   
-   
+     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;800&display=swap" rel="stylesheet">
-    <title>Mi pagina</title>
+   
+    <link rel="stylesheet" href="mediaqueris.css">
+
+    <title>Entrenamiento Personalizado (DP)</title>
 </head>
 <body>
 
-    <header>
-        <img class="logo" src="./imgs/logodp.png" alt="logo de Diego P">
+    <header>    
 
-            <nav class="navmenu">       
-                <ul class="menu-list">
-                    <li class="elementh"><a href="#">Sobre mi</a></li>
-                    <li class="elementh"><a href="#">Ejercicios </a></li>
-                    <li class="elementh"><a href="">Planes</a></li>
-                    <li class="elementh"><a href="">Contacto </a></li>
-                    <li class="elementh"><a href="">ingreso </a></li>
-                </ul>
-                <img src="./imgs/biceps-icon.png" alt="biceps icono" class="car">
-             </nav>
-    
+        <img class="logo" src="./imgs/logodp.png" alt="logo de Diego P">
+                <nav class="navmenu">
+                    <label for="menu-toggle" class="menu-label">
+                        <img src="./imgs/iconos/menu.svg" alt="menu" class="menu-icon" />
+                    </label>
+                    <input type="checkbox" id="menu-toggle"/> 
+                    <ul class="navbar-list">
+                        <li class="elementh"><a href="#">Sobre mi</a></li>
+                        <li class="elementh"><a href="#">Ejercicios</a></li>
+                        <li class="elementh"><a href="#">Planes</a></li>
+                        <li class="elementh"><a href="#">Contacto</a></li>
+                    </ul>
+                    <img src="./imgs/biceps-icon.png" alt="biceps icono" class="car">  
+                </nav>            
     </header>
     <main>
         <section id="hero">
             <div class="hero-info">
-                <h2>Entrena conmigo (Presencial / on line)</h2>
-                <p>Asesorías personalizadas, descenso de peso, ganancia de masa muscular, rendimiento deportivo, saludo física y mental. Consejos de alimentación.  Sentite bien con tu cuerpo y mejora tu calidad de vida. </p>
+                <h1>Entrenamiento Personalizado</h1>
+                <p>Asesorías personalizadas (presencial / on line), descenso de peso, ganancia de masa muscular, rendimiento deportivo, saludo física y mental. Consejos de alimentación.  Sentite bien con tu cuerpo y mejora tu calidad de vida. </p>
                 <a href="">ver más</a>
             </div>
 
             <div class="hero-card">
-                <img src="./imgs/20211210_093719.jpg" alt="Diego Entrena">
+                <img src="./imgs/manc.png" alt="mancuerna">
                 <div class="hero-card-info">
                     <!-- contenedor 1--> 
                     <div class="hero-card-top">
@@ -59,12 +63,55 @@
             <div class="about-titulo"><h2>¿Qué incluyen las asesorías?</h2></div>
                 <div class="about-detalle">
                       <p>Con mi asesoría podrás llegar al objetivo que te plantees. Rutinas personalizadas según tus gustos, con explicaciones detalladas en video, revisiones semanales, respuesta a todas tus dudas en el momento que desees.  Consejos y recetas para alimentarte mejor y cumplir tu objetivo lo antes posible.   Prepárate para cambiar tu vida.</p>
-                </div>   
-        </section>
+                </div>  
+        </section>       
+
+          <section id="info">
+                <h2>Lo que te ofresco en mi asesoria</h2>
+                <div class="info-cards-container">
+                    <div class="info-card">
+                        <img src="./imgs/iconos/list.svg" alt="Icono rutina" />
+                            <h3>Rutinas a medida</h3>
+                            <p>
+                                Puedo cambiar los ejercicios que no te gustan y asi armar una rutina personalizada para que entrenes con más ganas.
+                            </p>
+                    </div>
+                    <div class="info-card">
+                            <img src="./imgs/iconos/layers.svg" alt="Icono revision" />
+                            <h3>Revisiones semanales</h3>
+                            <p>
+                                Todos los lunes (o el dia que prefieras) resiso tus parametros, peso corporal, medidas, pesos de los ejercicios para poder analizar si vamos bien o si necesitamos ajustar algo.
+                            </p>
+                    </div>
+                    <div class="info-card">
+                            <img src="./imgs/iconos/film.svg" alt="Icono videos" />
+                            <h3>Videos de cada ejercicio</h3>
+                            <p>
+                                Tendras una galeria con videos de todos los ejercios que tenes que hacer en tus rutinas. Explicados paso a paso con tips y variantes.
+                            </p>
+                    </div>
+                </div>
+            </section>
+        
     </main>
     
-    <footer>   
-        Copyright dpietanza ©2023. All Rights Reserved 
+    <footer> 
+        <section id="footer">
+            <div class="contacto-info">
+                <div><h2>Contacto</h2></div>
+                <div>Argentina</div>
+                <div>+541157812811</div>
+                <div class="redes">
+                    <img src="./imgs/iconos/facebook.svg" alt="logo Face" href="http:www.facebook.com" >
+                    <img src="./imgs/iconos/ig.svg" alt="logo Instagram">
+                    <img src="./imgs/iconos/twitter.svg" alt="logo twitter" >
+
+                </div>
+            </div>
+            <div class="contacto-foto"><img src="./imgs/diego.jpg" alt="DiegoEntrena"></div>
+           
+        </section>  
+        <p> Copyright dpietanza ©2023. All Rights Reserved </p>
     </footer>
   
 </body>
