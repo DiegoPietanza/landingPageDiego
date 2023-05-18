@@ -1,4 +1,5 @@
 *{
+    
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -45,13 +46,13 @@ header {
 }
     
 .navbar-list a {
-    color: rgb(67, 67, 216);
+    color: rgb(245, 245, 245);
     font-size: 15px;
 
 }
 .navbar-list li:first-child >a {
-    color: rgb(90, 90, 248);
-    font-weight: 300;
+    color: rgb(213, 213, 245);
+    font-weight: 400;
 }
 
 .car {
