@@ -1,15 +1,7 @@
 
 /* Tablet */
 @media (max-width: 1050px) {
-    *{
-        margin: 0px;
-        padding: 0px;
-        box-sizing: border-box;
-        text-decoration: none;
-        font-family: 'Open Sans', sans-serif;
-        list-style-type: none;
-        
-    }
+
     .info-cards-container{
         display: flex;
         flex-direction: column;
@@ -29,15 +21,7 @@
 /* celus */
 
 @media (max-width: 600px) {
-    *{
-        margin: 0px;
-        padding: 0px;
-        box-sizing: border-box;
-        text-decoration: none;
-        font-family: 'Open Sans', sans-serif;
-        list-style-type: none;
-        
-    }
+
     .navbar-list {
         position: absolute;
         top: 65px;
