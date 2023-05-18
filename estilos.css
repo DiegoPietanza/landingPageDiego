@@ -5,7 +5,7 @@
     text-decoration: none;
     font-family: 'Open Sans', sans-serif;
     list-style-type: none;
-    
+    contacto-foto
 }
 h1{
     font-size: 50px;
@@ -211,11 +211,11 @@ main {
     justify-content: center;
 
 }
-.contacto-foto >img {
+.contacto-foto {
     width: 200px;
-    border-radius: 20%;
+    border-radius: 15%;
     padding: 10px;
-    box-shadow: 10cqb;        
+    box-shadow: 5px 5px 5px;        
 }
 .contacto-info{
     display: flex;
